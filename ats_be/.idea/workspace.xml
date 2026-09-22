@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b111de-6f93-4c64-b1fd-efbca4b2efc2" name="Changes" comment="" />
+    <list default="true" id="c0b111de-6f93-4c64-b1fd-efbca4b2efc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/api/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/application/command/JobCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/application/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/application/service/CreateJobUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/job-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/he123456/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/application-service/src/main/java/fu/he123456/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/application-service/src/main/java/fu/ats/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/candidate-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/candidate-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cv-parse-service/src/main/java/fu/he123456/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/cv-parse-service/src/main/java/fu/ats/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/job-service/src/main/java/fu/he123456/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification-service/src/main/java/fu/he123456/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification-service/src/main/java/fu/ats/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="31" />
+    <option name="cachedIndexableFilesCount" value="34" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,67 +36,70 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000253463025215" />
-      <entry key="MS500" value="1.249816425627036" />
-      <entry key="S2" value="2.3102625014957745" />
-      <entry key="S5" value="4.124083366901855" />
-      <entry key="S10" value="6.812483485276729" />
-      <entry key="S30" value="11.30262809581148" />
-      <entry key="S60" value="14.541558113292604" />
-      <entry key="M2" value="21.950104622289924" />
-      <entry key="M5" value="47.876758312744315" />
-      <entry key="M10" value="82.71597124557539" />
-      <entry key="M15" value="108.9095741617113" />
-      <entry key="M30" value="164.26814379995503" />
-      <entry key="H1" value="225.2724148249164" />
-      <entry key="H2" value="276.1928433611628" />
-      <entry key="H4" value="310.1864789411239" />
-      <entry key="D1" value="344.40150816988955" />
-      <entry key="W1" value="350.89779954245444" />
+      <entry key="MS100" value="1.540220750689561E-12" />
+      <entry key="MS500" value="0.004340380937912582" />
+      <entry key="S2" value="0.27498928535335426" />
+      <entry key="S5" value="0.7922354683936567" />
+      <entry key="S10" value="1.356694194350322" />
+      <entry key="S30" value="2.6901133815924423" />
+      <entry key="S60" value="3.7730614957172315" />
+      <entry key="M2" value="6.530658891741535" />
+      <entry key="M5" value="14.338132949765258" />
+      <entry key="M10" value="20.378978553989935" />
+      <entry key="M15" value="23.10126752853822" />
+      <entry key="M30" value="26.29200372457025" />
+      <entry key="H1" value="29.828565358233046" />
+      <entry key="H2" value="53.42921061028926" />
+      <entry key="H4" value="121.72498606930361" />
+      <entry key="D1" value="311.2795394310293" />
+      <entry key="W1" value="370.8967472900748" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.703809897818728E-87" />
-      <entry key="S5" value="2.958868891594587E-35" />
-      <entry key="S10" value="8.88619582005386E-18" />
-      <entry key="S30" value="4.25076972025683E-6" />
-      <entry key="S60" value="0.0037531064031766496" />
-      <entry key="M2" value="0.17919176317652538" />
-      <entry key="M5" value="5.003526867052067" />
-      <entry key="M10" value="22.461354794776668" />
-      <entry key="M15" value="41.13830441135538" />
-      <entry key="M30" value="84.74073377450038" />
-      <entry key="H1" value="130.89270825890094" />
-      <entry key="H2" value="166.87190090870337" />
-      <entry key="H4" value="189.7977915418442" />
-      <entry key="D1" value="212.1307992169586" />
-      <entry key="W1" value="216.2956233384164" />
+      <entry key="MS100" value="1.000000028194715" />
+      <entry key="MS500" value="1.030905341136904" />
+      <entry key="S2" value="1.4192840922204657" />
+      <entry key="S5" value="1.706323009367488" />
+      <entry key="S10" value="1.8404302525299099" />
+      <entry key="S30" value="1.9436998637863878" />
+      <entry key="S60" value="1.9714421566858151" />
+      <entry key="M2" value="1.9856176523813964" />
+      <entry key="M5" value="1.9942220465221483" />
+      <entry key="M10" value="1.9971068380732033" />
+      <entry key="M15" value="1.9980704474738753" />
+      <entry key="M30" value="2.004208259379996" />
+      <entry key="H1" value="3.022256310306622" />
+      <entry key="H2" value="16.75029836777223" />
+      <entry key="H4" value="58.429028802538376" />
+      <entry key="D1" value="175.30286248477177" />
+      <entry key="W1" value="212.138274923128" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.882946129553222" />
-      <entry key="MS500" value="1.2230218646337634" />
-      <entry key="S2" value="2.3012376786174467" />
-      <entry key="S5" value="4.118933252238408" />
-      <entry key="S10" value="6.808683924514158" />
-      <entry key="S30" value="11.300650027550708" />
-      <entry key="S60" value="14.543888617130156" />
-      <entry key="M2" value="22.125509237381493" />
-      <entry key="M5" value="52.841280376290506" />
-      <entry key="M10" value="105.08495514841988" />
-      <entry key="M15" value="149.93449832294758" />
-      <entry key="M30" value="248.89368888602615" />
-      <entry key="H1" value="356.07775956332506" />
-      <entry key="H2" value="443.0097207440005" />
-      <entry key="H4" value="499.95318443234663" />
-      <entry key="D1" value="556.5265496359619" />
-      <entry key="W1" value="567.1925850260191" />
+      <entry key="MS100" value="5.7665662363635E-4" />
+      <entry key="MS500" value="0.23373039269227253" />
+      <entry key="S2" value="1.044189939472888" />
+      <entry key="S5" value="1.946291112708489" />
+      <entry key="S10" value="2.8122562991739306" />
+      <entry key="S30" value="4.469247653046962" />
+      <entry key="S60" value="5.65631300364614" />
+      <entry key="M2" value="8.47042690967205" />
+      <entry key="M5" value="16.31344511767309" />
+      <entry key="M10" value="22.36649918258059" />
+      <entry key="M15" value="25.092913188473087" />
+      <entry key="M30" value="28.292974028659675" />
+      <entry key="H1" value="32.84851862652657" />
+      <entry key="H2" value="70.17383371181346" />
+      <entry key="H4" value="180.14436654318487" />
+      <entry key="D1" value="486.5776303248966" />
+      <entry key="W1" value="583.0341985336535" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -94,25 +111,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dieunt/Documents/FPTU/1_Training/26_FA/MSS301_SE1947/Projects/ats_be/services/notification-service/src/main/java/fu/he123456/Main.java&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dieunt/Documents/FPTU/1_Training/26_FA/MSS301_SE1947/Projects/ats_be/services/job-service/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/dieunt/Documents/FPTU/1_Training/26_FA/MSS301_SE1947/Projects/ats_be/services/notification-service/src/main/java/fu/he123456/Main.java",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/job-service/src/main/resources" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -130,7 +157,8 @@
       <updated>1789807200280</updated>
       <workItem from="1789807201815" duration="4011000" />
       <workItem from="1789811279673" duration="3028000" />
-      <workItem from="1790005685268" duration="1518000" />
+      <workItem from="1790005685268" duration="2240000" />
+      <workItem from="1790072008262" duration="645000" />
     </task>
     <servers />
   </component>
@@ -146,12 +174,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/he123456/Main.java</url>
+          <url>file://$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/services/job-service/src/main/java/fu/he123456/Main.java</url>
+          <url>file://$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -161,17 +189,17 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/services/application-service/src/main/java/fu/he123456/Main.java</url>
+          <url>file://$PROJECT_DIR$/services/application-service/src/main/java/fu/ats/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/services/cv-parse-service/src/main/java/fu/he123456/Main.java</url>
+          <url>file://$PROJECT_DIR$/services/cv-parse-service/src/main/java/fu/ats/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/fu/he123456/Main.java</url>
+          <url>file://$PROJECT_DIR$/services/notification-service/src/main/java/fu/ats/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>

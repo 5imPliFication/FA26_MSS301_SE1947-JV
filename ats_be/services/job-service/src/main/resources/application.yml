@@ -1,12 +1,12 @@
 server:
-  port: 8082
+  port: 8081
 
 spring:
   application:
-    name: candidate-service
+    name: job-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/ats_candidate_dbs
+    url: jdbc:postgresql://localhost:5432/ats_job_dbs
     username: dieunt
     password:
     driver-class-name: org.postgresql.Driver
