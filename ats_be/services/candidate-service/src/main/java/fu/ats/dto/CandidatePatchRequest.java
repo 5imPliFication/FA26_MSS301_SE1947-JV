@@ -1,28 +1,20 @@
 package fu.ats.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
-
-import java.util.List;
-import java.util.UUID;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
-public class CandidateRequest {
-    @NotBlank
+public class CandidatePatchRequest {
+    @Pattern(regexp = ".*\\S.*", message = "Full name must not be blank")
     private String fullName;
 
-    @NotBlank
     @Pattern(regexp = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$", message = "Email is not valid format")
     private String email;
 
@@ -41,5 +33,13 @@ public class CandidateRequest {
     @Size(max = 255)
     private String utmCampaign;
 
-    private List<@NotNull UUID> skillIds;
+    public boolean hasNoValues() {
+        return fullName == null
+                && email == null
+                && phone == null
+                && source == null
+                && utmSource == null
+                && utmMedium == null
+                && utmCampaign == null;
+    }
 }
